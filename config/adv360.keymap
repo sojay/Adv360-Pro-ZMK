@@ -112,7 +112,7 @@
         &trans &trans                    &trans             &trans          &trans             &trans              &none                                   &none  &trans                   &trans                    &trans                    &trans                    &trans       &trans
         &trans &kp LA(LS(MINUS))         &kp LA(MINUS)      &kp LA(SEMI)    &kp LA(LBKT)       &kp LA(LS(LBKT))   &none &trans &trans &trans &trans     &none  &kp LA(RBKT)            &kp LA(LS(RBKT))        &kp LA(BSLH)             &kp LA(LS(BSLH))        &kp LA(SPACE) &trans
         &trans &trans                    &trans             &trans          &trans             &trans              &trans                                  &trans &trans                   &trans                    &trans                    &trans       &trans
-        &trans &trans                    &trans             &trans          &trans              &trans &trans &trans &trans &trans &trans             &trans                   &trans                    &trans                    &trans       &trans
+        &trans &trans                    &trans             &trans          &trans              &trans &trans &trans &trans &trans &trans             &trans                   &trans                    &trans                    &trans       &trans &trans
       >;
     };
     shrt {
