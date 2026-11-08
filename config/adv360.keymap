@@ -121,7 +121,7 @@
       bindings = <
         &trans &trans          &trans            &trans              &trans                 &trans             &trans                                  &trans &trans          &trans               &trans                    &trans              &trans           &trans
         &trans &trans          &trans            &trans              &trans                 &trans             &none                                   &none  &trans          &trans               &trans                    &trans              &trans           &trans
-        &trans &kp LG(SPACE)   &kp LCTRL(UP)     &kp LG(LS(N4))      &kp LG(LS(N5))        &kp LG(TAB)        &none &trans &trans &trans &trans     &none  &kp LG(LS(TAB)) &kp LG(P)          &kp LG(LS(P))             &kp LG(SLASH)       &kp LG(D)        &trans
+        &trans &kp LG(SPACE)   &kp LC(UP)     &kp LG(LS(N4))      &kp LG(LS(N5))        &kp LG(TAB)        &none &trans &trans &trans &trans     &none  &kp LG(LS(TAB)) &kp LG(P)          &kp LG(LS(P))             &kp LG(SLASH)       &kp LG(D)        &trans
         &trans &kp LG(LS(K))  &kp LA(UP)        &kp LA(DOWN)        &trans                 &kp LG(B)          &trans                                  &trans &trans          &kp LG(I)            &kp LG(K)                 &kp LG(LS(V))       &trans           &trans
         &trans &trans          &trans            &trans              &trans              &trans &trans &trans &trans &trans &trans             &trans                   &trans                    &trans                    &trans       &trans
       >;
