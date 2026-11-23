@@ -48,12 +48,16 @@
 
         fn {
             display-name = "Fn";
+            // Right hand: Rectangle window grid (Ctrl+Opt defaults). Arrows: Spaces / Mission Control.
+            //   Y prev display   U top-left    I top half     O top-right    P next display
+            //   H restore        J left half   K maximize     L right half
+            //   N center         M bottom-left , bottom half  . bottom-right
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4         &kp F5          &kp F6  &tog 1                                      &mo 3   &kp F7                 &kp F8              &kp F9              &kp F10             &kp F11                &kp F12
+&trans  &trans  &trans  &trans         &trans          &trans  &none                                       &none   &kp LC(LA(LG(LEFT)))   &kp LC(LA(U))       &kp LC(LA(UP))      &kp LC(LA(I))       &kp LC(LA(LG(RIGHT)))  &trans
+&trans  &trans  &trans  &trans         &trans          &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LC(LA(BSPC))       &kp LC(LA(LEFT))    &kp LC(LA(RET))     &kp LC(LA(RIGHT))   &trans                 &trans
+&trans  &trans  &trans  &trans         &trans          &trans                  &trans      &trans                  &kp LC(LA(C))          &kp LC(LA(J))       &kp LC(LA(DOWN))    &kp LC(LA(K))       &trans                 &trans
+&trans  &trans  &trans  &kp LC(LEFT)   &kp LC(RIGHT)           &trans  &trans  &trans      &trans  &trans  &trans                         &kp LC(UP)          &kp LC(DOWN)        &trans              &trans                 &trans
             >;
         };
 
